@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Contacto - Lorem</title>
+</head>
+<body>
+    <div class="base">
+        <header id="top">
+            <nav class="menu">
+                <ul>
+                    <li class="logo boton">
+                        <a href="../index.html">
+                            <img src="../img/logo.jpeg" width="100" height="100" alt="Link a home, logo Lorem">
+                        </a>
+                    </li>
+
+                    <li class="up boton">
+                        <a href="juegos.html">
+                            Juegos
+                        </a>
+                    </li>
+
+                    <li class="up1 boton">
+                        <a href="desarrolladores.html">
+                            Desarrolladores
+                        </a>
+                    </li>
+
+                    <li class="down boton">
+                        <a href="sobreNosotros.html">
+                            Sobre Nosotros
+                        </a>
+                    </li>
+
+                    <li class="down1 boton">
+                        <a href="#top">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="contactoTitulo animate__animated animate__fadeInDown">Contacto</h1>
+        </header>
+
+        <main class="contactoMain">
+            <form class="formulario" action="">
+                <fieldset class="formPadre">
+                    <div class="contactoSubtitulo">
+                        <legend>
+                            Cuentanos el problema
+                        </legend>
+                    </div>
+                    <div class="item">
+                        <label for="motivo">Motivo:</label>
+                        <br>
+                        <select name="motivo" id="">
+                            <option value="bug">Bugs</option>
+                            <option value="sugerencia">Sugerencias</option>
+                            <option value="descarga">No descarga</option>
+                            <option value="low end pc">No puedo jugar/se cierra</option>
+                        </select>
+                    </div>
+
+                    <div class="item1">
+                        <label for="juego">Selecciona el juego con el que tienes inconvenientes:</label>
+                        <br>
+                        <input type="radio" name="juego" value="0">Dread Hunger
+                        <br>
+                        <input type="radio" name="juego" value="1">Hades
+                        <br>
+                        <input type="radio" name="juego" value="2">Pyre
+                        <br>
+                        <input type="radio" name="juego" value="3">Bastion
+                        <br>
+                        <input type="radio" name="juego" value="4">Transistor
+                        <br>
+                        <input type="radio" name="juego" value="5">Hollow Knight
+                    </div>
+
+                    <div class="item2">
+                        <label for="nombre">Nombre:</label>
+                        <br>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                    </div>
+
+                    <div class="item3">
+                        <label for="mail">Correo de contacto:</label>
+                        <br>
+                        <input type="email" name="mail" placeholder="Escibe tu mail">
+                    </div>
+
+                    <div class="item4">
+                        <label for="mensaje">Mensaje:</label>
+                        <br>
+                        
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Explicanos brevemente el problema"></textarea>
+                    </div>
+
+                    <div class="item5">
+                        <input class="envio" type="submit" value="Contactarse">
+                        <input class="reinicio" type="reset" value="Borrar todo">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer class="foot">
+            <h3>Todos los derechos reservados <br>Diseñado por perg.bruno.mereles@gmail.com
+            </h3>
+            <img class="redesFb" src="../img/fbLogo.png" width="50" height="50" alt="logo facebook">
+            <img class="redesInsta" src="../img/instaLogo.png" width="50" height="50" alt="logo Instagram">
+        </footer>
+    </div>
+</body>
+</html>
